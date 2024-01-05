@@ -1,0 +1,72 @@
+
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.table-add {
+  width: 600px;
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+}
+.table-container table {
+  width: 600px;
+}
+.head {
+  background-color: aquamarine;
+}
+/* .eve {
+  background-color: #9fa2a9;
+}
+.odd {
+  background-color: #e7ecf6;
+} */
+.del-button{
+  background-color: red;
+  padding: 2px 7px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+.update-button {
+  background-color: blue;
+  padding: 2px 7px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+.add-btn {
+  background-color: rgb(58, 239, 8);
+  padding: 5px 18px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+
+}
+
+
+/* -----------------------------------form----------------------------------------- */
+ .form-container {
+  height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .container {
+  background-color: rgb(218, 214, 218);
+  padding: 40px;
+  width: 400px;
+  border-radius: 15px;
+ }
+ .form-top {
+  display: flex;
+  justify-content: center;
+ }
+ .form-top h1 {
+  color: rgb(250, 196, 142);
+  text-shadow: 2px 2px 2px rgb(59, 57, 57);
+ }
