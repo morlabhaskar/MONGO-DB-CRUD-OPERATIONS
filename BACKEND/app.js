@@ -2,14 +2,15 @@
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
-import student from "./models/student"
+import student from "./models/student.js"
 // import student1 from "./models/student1";
 import mongoose from "mongoose";
 
 const app = express();
 app.use(cors())
 app.use(bodyParser.json())
-mongoose.connect("mongodb+srv://morlabhaskar306:ZdG5JZtg8UTfugK0@bhaskar.smjwtfm.mongodb.net/?retryWrites=true&w=majority")
+// mongoose.connect("mongodb+srv://morlabhaskar306:ZdG5JZtg8UTfugK0@bhaskar.smjwtfm.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://morlabhaskar306:ZdG5JZtg8UTfugK0@bhaskar.smjwtfm.mongodb.net/MONGODB-CRUD")
 .then(()=> app.listen(5000))
 .then(()=>console.log("Connected to mongoDB"))
 .catch((err)=>console.log(err))
